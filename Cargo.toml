@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 vst = "0.2.0"
+vst-gui = { git = "https://github.com/mikesoylu/rust-vst-gui/" }
 
 [lib]
 name = "fuzzball"
