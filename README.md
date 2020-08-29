@@ -1,7 +1,8 @@
 # fuzzball
 FuzzBall - Fuzzy audio plugin
 
-Simple VST plugin based on https://github.com/RustAudio/vst-rs/ examples.
+VST plugin with Fuzz effect.
+Fuzz effect can be controlled with 3 controllers.
 
 ## Build
 
