@@ -1,4 +1,4 @@
-# Fuzz Ball
+# [Fuzz Ball](https://www.fake.nz/fuzzball.html)
 VST plugin with Fuzz effect written in Rust.
 
 ![Fuzz Ball VST screenshot](/media/screenshot.png)
