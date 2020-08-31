@@ -32,21 +32,25 @@ impl FuzzBallProcessor {
             for (input_sample, output_sample) in
                 input_buffer.iter().zip(output_buffer)
             {
-                if bounce > 0.6 {
-                    *output_sample = *input_sample
-                        * (volume)
-                        * (fuzz.log(*input_sample) + input_sample.log(fuzz))
-                        * fuzz.log(bounce);
-                } else if bounce < 0.4 {
-                    *output_sample = *input_sample
-                        * (volume)
-                        * (fuzz.log(*input_sample)
-                            - input_sample.log(fuzz)
-                            - fuzz.log(bounce));
-                } else {
-                    *output_sample = *input_sample
-                        * (volume)
-                        * (fuzz.log(*input_sample) + input_sample.log(fuzz));
+                if *input_sample > 0.0 {
+                    if bounce > 0.6 {
+                        *output_sample = *input_sample
+                            * (volume)
+                            * (fuzz.log(*input_sample)
+                                + input_sample.log(fuzz))
+                            * fuzz.log(bounce);
+                    } else if bounce < 0.4 {
+                        *output_sample = *input_sample
+                            * (volume)
+                            * (fuzz.log(*input_sample)
+                                - input_sample.log(fuzz)
+                                - fuzz.log(bounce));
+                    } else {
+                        *output_sample = *input_sample
+                            * (volume)
+                            * (fuzz.log(*input_sample)
+                                + input_sample.log(fuzz));
+                    }
                 }
             }
         }
