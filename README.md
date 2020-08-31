@@ -1,7 +1,7 @@
 # Fuzz Ball
 VST plugin with Fuzz effect written in Rust.
 
-![Fuzz Ball VST screenshot](/media/screenshot.png)
+![Fuzz Ball VST screenshot](/media/screenshot.png | width=400)
 
 Fuzz ball can be controlled with 3 controllers.
 
@@ -10,6 +10,8 @@ Fuzz ball can be controlled with 3 controllers.
 **Bounce** control is an additional fuzz controller.
 
 **Volume** controls the volume.
+
+## License
 
 Copyright (C) 2020 [Fake Industries](https://www.fake.nz/)
 
