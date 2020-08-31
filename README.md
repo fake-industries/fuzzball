@@ -1,7 +1,7 @@
 # Fuzz Ball
 VST plugin with Fuzz effect written in Rust.
 
-![Fuzz Ball VST screenshot](/media/screenshot.png | width=400)
+![Fuzz Ball VST screenshot](/media/screenshot.png)
 
 Fuzz ball can be controlled with 3 controllers.
 
