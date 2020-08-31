@@ -197,7 +197,9 @@ volume.addEventListener("change", function(event) {
 </html>
 "#;
 
-fn javascript_callback(parameters: Arc<FuzzBallParameters>) -> vst_gui::JavascriptCallback {
+fn javascript_callback(
+    parameters: Arc<FuzzBallParameters>,
+) -> vst_gui::JavascriptCallback {
     Box::new(move |message: String| {
         let mut tokens = message.split_whitespace();
 
@@ -239,7 +241,9 @@ fn javascript_callback(parameters: Arc<FuzzBallParameters>) -> vst_gui::Javascri
 pub struct PluginUI;
 
 impl PluginUI {
-    pub fn new(parameters: Arc<FuzzBallParameters>) -> Option<Box<dyn (Editor)>> {
+    pub fn new(
+        parameters: Arc<FuzzBallParameters>,
+    ) -> Option<Box<dyn (Editor)>> {
         let ui = vst_gui::new_plugin_gui(
             String::from(HTML),
             javascript_callback(parameters.clone()),
