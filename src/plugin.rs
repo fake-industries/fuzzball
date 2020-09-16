@@ -24,7 +24,7 @@ impl Plugin for FuzzBall {
         Info {
             name: "Fuzz Ball".to_string(),
             vendor: "Fake Industries".to_string(),
-            unique_id: 999666999,
+            unique_id: 46494642,
             version: 1,
             inputs: 2,
             outputs: 2,
