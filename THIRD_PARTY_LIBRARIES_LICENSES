@@ -1,0 +1,14 @@
+Rust lang
+website: https://www.rust-lang.org/
+licences: MIT License / Apache License, Version 2.0
+link: https://www.rust-lang.org/policies/licenses
+
+VST-RS
+website: https://github.com/RustAudio/vst-rs
+license: MIT License
+link: https://github.com/RustAudio/vst-rs/blob/master/LICENSE
+
+VST GUI
+website: https://github.com/mikesoylu/rust-vst-gui/
+license: MIT License
+link: https://github.com/mikesoylu/rust-vst-gui/blob/master/License.txt
