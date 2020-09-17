@@ -11,6 +11,17 @@ Fuzz ball can be controlled with 3 controllers.
 
 **Volume** controls the volume.
 
+## Demo
+
+* [8 ball on soundcloud](https://soundcloud.com/fake_industries/fuzzball-8-ball-session-v1)
+* [First ball on soundcloud](https://soundcloud.com/fake_industries/fuzzball-first-ball-v1)
+* [Hyper ball on soundcloud](https://soundcloud.com/fake_industries/fuzzball-hyper-ball-v1)
+* [Wrecking ball on soundcloud](https://soundcloud.com/fake_industries/fuzzball-wrecking-ball-v1)
+
+## Download
+
+* [Fuzz Ball V1 for MacOS](https://github.com/fake-industries/fuzzball/releases/download/v1/FuzzBall-v1.pkg)
+
 ## License
 
 Copyright (C) 2020 [Fake Industries](https://www.fake.nz/)
@@ -22,5 +33,7 @@ the Free Software Foundation, either version 3 of the License, or
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+[GNU General Public License](LICENSE) for more details.
+
+This program uses following [third party libraries](THIRD_PARTY_LIBRARIES_LICENSES).
