@@ -174,14 +174,24 @@ function setup(ball) {
       volume.value = 0.90;
   };
 
-  fuzz.dispatchEvent(new Event('change'));
-  bounce.dispatchEvent(new Event('change'));
-  volume.dispatchEvent(new Event('change'));
+  fuzz.dispatchEvent(new Event("change"));
+  bounce.dispatchEvent(new Event("change"));
+  volume.dispatchEvent(new Event("change"));
 };
 
 fuzz.value = external.invoke("getFuzz");
 bounce.value = external.invoke("getBounce");
 volume.value = external.invoke("getVolume");
+
+fuzz.oninput = function () {
+  external.invoke("setFuzz " + fuzz.value);
+};
+bounce.oninput = function() {
+  external.invoke("setBounce " + bounce.value);
+};
+volume.oninput = function() {
+  external.invoke("setVolume " + volume.value);
+};
 
 fuzz.addEventListener("change", function(event) {
   external.invoke("setFuzz " + event.target.value);
