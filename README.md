@@ -20,7 +20,7 @@ Fuzz ball can be controlled with 3 controllers.
 
 ## Download
 
-* [Fuzz Ball V1 for MacOS](https://github.com/fake-industries/fuzzball/releases/download/v1/FuzzBall-v1.pkg)
+* [Fuzz Ball V1.1 for MacOS](https://github.com/fake-industries/fuzzball/releases/download/v1.1/FuzzBall-v1.1.pkg)
 
 ## License
 
